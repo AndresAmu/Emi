@@ -1,0 +1,204 @@
+.imagenesCiudad{
+    display: none;
+    width: 100%;
+    
+}
+
+.imgCiudad{
+    width: 23%;
+    margin: 1rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@media (min-width: 900px) {
+    .imagenesCiudad{
+        height: 40vh;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .imagenesCiudad{
+        display: flex;
+    }
+}
+
+.itinerario{
+    color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: #343a40;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    border:solid;
+    border-color: #ffa300 ;
+    border-radius: 2rem;
+}
+@media (max-width: 900px) {
+    .itinerario{
+        width: 100%;
+    }
+    
+}
+
+.tituloItinerario{
+    padding: 1rem;
+    color: #ffa300;
+}
+.contenidoItinerario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .contenidoItinerario{
+        flex-direction: row;
+    }
+}
+
+.fotoUser{
+    width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+
+
+.fotoUser img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid;
+    border-color: #ffa300;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+}
+@media (min-width: 900px) {
+    .fotoUser img{
+        width: 20vh;
+        height: 20vh;
+    }    
+}
+
+.fotoUser p{
+    margin-bottom: 0;
+}
+
+.textoItinerario{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+@media (min-width: 900px) {
+    .textoItinerario{
+        flex-direction: row;
+    }
+}
+.autor{
+    color:#ffa300;
+    font-weight: 600;
+}
+.parrafos p,
+.hashtags p{
+    background-color: #ffa20080;
+    text-align: center;
+    padding: 0.5rem;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width:900px) {
+    .hashtags p{
+        display: none;
+    }
+    .parrafos p{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+.botonActivities{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #ffa200d2;
+    border:none;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.658);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.514);
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+.botonActivities:hover{
+    background-color: #966003;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+   
+}
+
+.caritaTriste{
+    font-size: 20vh;
+    color: #966003;
+}
+
+.bottomButton{
+    display: flex;
+    justify-content: center;
+}
+.atras{
+    margin-right: 1rem;
+}
+
+.atras,
+.home{
+    color: #343a40;;
+    font-size: 3rem;
+    
+}
+
+.atras:hover,
+.home:hover{
+    color: #966003;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.like{
+    background-color: #343a4000;
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: white;
+}
+
+.white{
+    color: white;
+    transition-timing-function: ease-out;
+    transition: 0.3s;
+}
+
+.red{
+    color: red;
+    transition-timing-function: ease-in;
+    transition: 0.3s;
+}
